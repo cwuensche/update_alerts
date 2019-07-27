@@ -1,0 +1,21 @@
+{
+    "name": "cwuensche/update_alerts",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Carl Wuensche",
+            "email": "carl@wuensche.ca"
+        }
+    ],
+	"autoload": {
+		"classmap": [
+			"classes/class-starter.php"
+		],
+		"psr-4": {
+			"Update_alerts\\": "classes"
+		}
+	}
+}
